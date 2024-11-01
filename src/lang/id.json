@@ -1,0 +1,32 @@
+{
+  "common": {
+    "confirmation": "Konfirmasi",
+    "delete": "Hapus",
+    "continue": "Lanjut",
+    "success": "Berhasil",
+    "failure": "Gagal",
+    "error": "Kesalahan"
+  },
+  "message": {
+    "before_upsert": "Apakah anda yakin ingin lanjut? Data sebelumnya akan ditimpa",
+    "before_delete": "Apakah anda yakin ingin menghapus?",
+    "before_save": "Apakah anda yakin ingin menyimpan?",
+    "success_deleted": "Berhasil dihapus",
+    "success_updated": "Berhasil diubah",
+    "success_saved": "Berhasil disimpan",
+    "success_created": "Berhasil dibuat",
+    "success_added": "Berhasil ditambahkan",
+    "error_email_or_password": "Email atau kata sandi salah",
+    "error_something_wrong": "Terjadi kesalahan"
+  },
+  "validation": {
+    "is_not_empty": "Input harus diisi",
+    "is_email": "Input harus berupa email",
+    "is_number": "Input harus berupa angka",
+    "is_phone_number": "Input harus nomor telepon yang valid",
+    "min": "Nilai input minimal {min}",
+    "max": "Nilai input maksimal {max}",
+    "min_length": "Input minimal {min} karakter",
+    "max_length": "Input maksimal {max} karakter"
+  }
+}

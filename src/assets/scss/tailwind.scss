@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-prefix-icon {
+    @apply h-full aspect-square grid place-content-center rounded-lg text-slate-400;
+  }
+  .input-prefix-icon-shadow {
+    @apply h-full aspect-square grid place-content-center rounded-lg text-slate-400 shadow-[12px_0_10px_-10px] shadow-gray-200;
+  }
+  .input-suffix-icon {
+    @apply h-full aspect-square grid place-content-center rounded-lg text-slate-400;
+  }
+  .input-suffix-icon-shadow {
+    @apply h-full aspect-square grid place-content-center rounded-lg text-slate-400 shadow-[-12px_0_10px_-10px] shadow-gray-200;
+  }
+}

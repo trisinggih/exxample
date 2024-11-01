@@ -1,0 +1,32 @@
+{
+  "common": {
+    "confirmation": "Confirmation",
+    "delete": "Delete",
+    "continue": "Continue",
+    "success": "Success",
+    "failure": "Failure",
+    "error": "Error"
+  },
+  "message": {
+    "before_upsert": "Are you sure want to continue? Previous data will be replaced",
+    "before_delete": "Are you sure want to delete?",
+    "before_save": "Are you sure want to save?",
+    "success_deleted": "Successfully deleted",
+    "success_updated": "Successfully updated",
+    "success_saved": "Successfully saved",
+    "success_created": "Successfully created",
+    "success_added": "Successfully added",
+    "error_email_or_password": "Wrong email or password",
+    "error_something_wrong": "Something went wrong"
+  },
+  "validation": {
+    "is_not_empty": "Input is required",
+    "is_email": "Input must be an email",
+    "is_number": "Input must be a number",
+    "is_phone_number": "Input must be a valid phone number",
+    "min": "Input value minimum {min}",
+    "max": "Input value maximum {max}",
+    "min_length": "Input minimum {min} characters",
+    "max_length": "Input maximum {max} characters"
+  }
+}

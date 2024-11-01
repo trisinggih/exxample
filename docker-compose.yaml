@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  web:
+    image: people-daily-web
+    container_name: people-daily-web
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./.env
+
+networks:
+  default:
+    name: proxy_network
+    external: true
